@@ -90,9 +90,16 @@ function evenFinder(nums){
 
 var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 //Write a function called divider that is given one argument, numbersArray.
-//Have divider return an Array with the first item in the array being the evens array (all the even values from numbersArray) and the second item in the Array being the odds array (all the odd values from numbersArray).
+//Have divider return an Array with the first item in the array being the evens array (all the even values 
+//from numbersArray) and the second item in the Array being the odds array (all the odd values from numbersArray).
 
-
+// function divider(arr){
+//   for (let i = arr.length - 1; i >= 0; i--){
+//     if (arr[i] % 2) {
+//       newArr 1 =arr.splice(i, 1)
+//     } else {newArr2 = arr.splice(i, 1)}
+//   }
+// }
 
   //Code Here
 
