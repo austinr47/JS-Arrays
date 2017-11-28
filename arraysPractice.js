@@ -2,7 +2,8 @@
 
 
 var arr = [10,20,30];
-//Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
+//Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the 
+//given array.
 
   //Code Here
 function first(arr){
@@ -14,7 +15,8 @@ function first(arr){
 
 
 var arr = [40,50,60];
-//Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
+//Create a function named 'last' that is given 'arr' as the argument and returns the last item in the 
+//given array.
 
 
   //Code Here
@@ -91,7 +93,7 @@ function evenFinder(nums){
 var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 //Write a function called divider that is given one argument, numbersArray.
 //Have divider return an Array with the first item in the array being the evens array (all the even values 
-//from numbersArray) and the second item in the Array being the odds array (all the odd values from numbersArray).
+//from numbersArray) and the second item in theArray being the odds array (all the oddvalues from numbersArray).
 
 // function divider(arr){
 //   for (let i = arr.length - 1; i >= 0; i--){
@@ -136,14 +138,18 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   and adding new items to our list.
 
   Write a function called removeItem that is given two arguments, the first is myGroceryList, and the
-  second is an item to remove from myGroceryList. If the second argument (or the item to add or remove) matches an item in myGroceryList,
+  second is an item to remove from myGroceryList. If the second argument (or the item to add or remove) matches
+  an item in myGroceryList,
   remove that item from the your grocery list and return the new, updated grocery list.
 
-  Once you do that, write another function called addItem that is given two arguments, the first is myGroceryList
+  Once you do that, write another function called addItem that is given two arguments, the first is 
+  myGroceryList
   and the second is an item to add to your grocery list. In addItem add the item you passed in to
   myGroceryList then return the new, updated grocery list.
 
-  In both the removeItem function and the addItem function, you will also need to check for valid aurguments. Specrunner will try to call your functions without passing in valid aurguments. When this happens, you will need to respond by returning an empty array.
+  In both the removeItem function and the addItem function, you will also need to check for valid aurguments. 
+  Specrunner will try to call your functions without passing in valid aurguments. When this happens, you 
+  will need to respond by returning an empty array.
 */
 
   //Code Here
@@ -157,7 +163,8 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 
 
-//Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns the array.
+//Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then
+// returns the array.
 
   //Code Here
 
@@ -168,7 +175,8 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 var numbers = [5, '9', 16, 19, '25', '34', 48];
 //Write a function called addTen that is given 'numbers' as it's only argument and returns a new
-//array after adding ten to each item in numbers. *Verify your answer is correct. --> [15, 19, 26, 29, 35, 44, 58]
+//array after adding ten to each item in numbers. *Verify your answer is correct. --> 
+//[15, 19, 26, 29, 35, 44, 58]
 
   //Code Here
 
@@ -189,7 +197,8 @@ for(var i = 0; i < num2; i++){
   arr2.push(i);
 }
 //Above is some code that adds a random number of values to both arr1 and arr2.
-//Write a function called 'longer' that is given arr1 and arr2 as it's only arguments. Return the array which is longest.
+//Write a function called 'longer' that is given arr1 and arr2 as it's only arguments. Return the array 
+//which is longest.
 
   //Code Here
 
